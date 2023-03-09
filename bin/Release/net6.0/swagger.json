@@ -1,0 +1,331 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "RefeicoesDoRafaTesteAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Cliente": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ClienteDTO"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Cliente"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ClienteDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Cliente"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "cpf",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Cliente"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ClienteDTO"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Pedido": {
+      "get": {
+        "tags": [
+          "Pedido"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/PedidoDTOConsulta"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Pedido"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/PedidoDTOBase"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Pedido"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "idPedido",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Pedido"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/PedidoDTOUpdate"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Refeicao": {
+      "get": {
+        "tags": [
+          "Refeicao"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Refeicao"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ClienteDTO": {
+      "type": "object",
+      "properties": {
+        "cpf": {
+          "type": "string"
+        },
+        "nomeCompletoCliente": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "whatsapp": {
+          "type": "string"
+        },
+        "endereco": {
+          "$ref": "#/definitions/EnderecoDTO"
+        }
+      }
+    },
+    "EnderecoDTO": {
+      "type": "object",
+      "properties": {
+        "cep": {
+          "type": "string"
+        },
+        "numero": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "complemento": {
+          "type": "string"
+        }
+      }
+    },
+    "PedidoDTOBase": {
+      "type": "object",
+      "properties": {
+        "idRefeicao": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "cpfCliente": {
+          "type": "string"
+        },
+        "observacoesSobreOPedido": {
+          "type": "string"
+        }
+      }
+    },
+    "PedidoDTOConsulta": {
+      "type": "object",
+      "properties": {
+        "idRefeicao": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "cpfCliente": {
+          "type": "string"
+        },
+        "observacoesSobreOPedido": {
+          "type": "string"
+        },
+        "nomeRefeicao": {
+          "type": "string"
+        },
+        "preco": {
+          "format": "double",
+          "type": "number"
+        },
+        "idPedido": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "isPedidoEntregue": {
+          "type": "boolean"
+        }
+      }
+    },
+    "PedidoDTOUpdate": {
+      "type": "object",
+      "properties": {
+        "idRefeicao": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "cpfCliente": {
+          "type": "string"
+        },
+        "observacoesSobreOPedido": {
+          "type": "string"
+        },
+        "idPedido": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Refeicao": {
+      "type": "object",
+      "properties": {
+        "idRefeicao": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "preco": {
+          "format": "double",
+          "type": "number"
+        },
+        "nomeRefeicao": {
+          "type": "string"
+        },
+        "tipoProteina": {
+          "type": "string"
+        },
+        "tipoAcompanhamento": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "49EYcYNMFacZVeJb9DAPC+05LhQI9qrQ25CCXmrP8uo=",
+  "Source": "RefeicoesDoRafaTesteAPI",
+  "BasePath": "_content/RefeicoesDoRafaTesteAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RefeicoesDoRafaTesteAPI\\wwwroot",
+      "Source": "RefeicoesDoRafaTesteAPI",
+      "ContentRoot": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\wwwroot\\",
+      "BasePath": "_content/RefeicoesDoRafaTesteAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\wwwroot\\swagger-ui\\custom.css",
+      "SourceId": "RefeicoesDoRafaTesteAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\wwwroot\\",
+      "BasePath": "_content/RefeicoesDoRafaTesteAPI",
+      "RelativePath": "swagger-ui/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger-ui\\custom.css"
+    }
+  ]
+}
