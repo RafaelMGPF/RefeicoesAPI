@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "49EYcYNMFacZVeJb9DAPC+05LhQI9qrQ25CCXmrP8uo=",
+  "Hash": "reeS77lqDvBb6q+OuJdmJetC7ZpYoNn6spoTGBSnxto=",
   "Source": "RefeicoesDoRafaTesteAPI",
   "BasePath": "_content/RefeicoesDoRafaTesteAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RefeicoesDoRafaTesteAPI\\wwwroot",
       "Source": "RefeicoesDoRafaTesteAPI",
-      "ContentRoot": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\wwwroot\\",
       "BasePath": "_content/RefeicoesDoRafaTesteAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\wwwroot\\swagger-ui\\custom.css",
+      "Identity": "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\wwwroot\\swagger-ui\\custom.css",
       "SourceId": "RefeicoesDoRafaTesteAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\wwwroot\\",
       "BasePath": "_content/RefeicoesDoRafaTesteAPI",
       "RelativePath": "swagger-ui/custom.css",
       "AssetKind": "All",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m7aH6YotSHYW4671MHDYzD2g7rBOb68l71d7ugUaHx7ULLIjLyDY7iJztKesUfJhjmsGOaTg+J/YvVjXs8Q2qw==",
+  "dgSpecHash": "XIymkiLt9KdgWz+byEdMOTb8NmQAD5d+iAHoWfBtWuKdcgIH5V8DSg8TsmcCjdZ5oXzrczFOW4Kvz+OCTfJbLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj",
+  "projectFilePath": "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafam\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\rafam\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj": {}
+    "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj": {
+    "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj",
+        "projectUniqueName": "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj",
         "projectName": "RefeicoesDoRafaTesteAPI",
-        "projectPath": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj",
+        "projectPath": "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\RefeicoesDoRafaTesteAPI.csproj",
         "packagesPath": "C:\\Users\\rafam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafam\\OneDrive\\Imagens\\RefeicoesDoRafaAPI\\RefeicoesDoRafaAPI\\obj\\",
+        "outputPath": "C:\\Users\\rafam\\source\\repos\\RefeicoesAPI\\RefeicoesDoRafaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
